@@ -5,6 +5,7 @@
 1. Pobierz projekt i skonfiguruj środowisko wirtualne
 2. Pobierz zależności
 ```
+pip install --upgrade pip
 pip install -r requirements.txt
 ```
 TODO: instrukcja odpalenia, jak już wszytsko będzie skończone

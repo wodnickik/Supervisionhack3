@@ -1,6 +1,6 @@
 # Supervisionhack3 - DEPO_Predator
 
-## Quickastart
+## Quickstart
 
 1. Pobierz projekt i skonfiguruj środowisko wirtualne
 2. Pobierz zależności
@@ -24,3 +24,8 @@ TODO: instrukcja odpalenia, jak już wszytsko będzie skończone
 Rozwiązanie jest podzielone na niezależne moduły. Poniższy schemat przedstawia poglądową architekturę i ideę rozwiązania.
 
 ![Schemat rozwiązania](files/readme_img/idea.png)
+
+## Dodatkowe źródła
+
+1. [Google finance](https://www.google.com/finance/?authuser=1) - notowania giełdowe
+2. [Bankier.pl](https://www.bankier.pl/gospodarka/wskazniki-makroekonomiczne/stopa-bezrobocia-pol#) - stopa bezrobocia

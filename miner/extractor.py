@@ -59,6 +59,9 @@ if __name__ == "__main__":
             if re.search('lokat', file, re.IGNORECASE) and re.search('\d\d-\d\d-\d\d\d\d', file):
                 pdf = PDF(src=os.path.join(downloads_dir, bank, file))
                 print(os.path.join(downloads_dir, bank, f'{file[:-4]}.xlsx'))
+                
+                if not os.path.isdir(os.path.join(downloads_dir, bank, 'output')):
+                        os.mkdir(os.path.join(downloads_dir, bank, 'output'))
                 pdf.to_xlsx(os.path.join(downloads_dir, bank, 'output', f'{file[:-4]}.xlsx'), ocr=ocr)
                 
                 date = re.search('\d\d-\d\d-\d\d\d\d', file).group(0)

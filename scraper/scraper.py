@@ -1,14 +1,9 @@
 import pandas as pd
-
 import re
-import time
 import os
 from urllib.parse import urlparse
-
 import requests
 from bs4 import BeautifulSoup
-from selenium import webdriver
-from selenium.webdriver.common.by import By
 
 
 def fix_url(curr, target):
@@ -48,6 +43,8 @@ if __name__ == "__main__":
                 html = str(link)
                 if re.search('lokat', link['title'], re.IGNORECASE) and re.search('konto', link['title'], re.IGNORECASE):
                     url = fix_url(row['Link'], href)
+                    if not os.path.isdir(f'../downloads/{bank_name}'):
+                        os.mkdir(f'../downloads/{bank_name}')
                     if try_download(url, f'../downloads/{bank_name}'):
                         search_result[-1][1].append(href)
             except:

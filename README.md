@@ -29,3 +29,4 @@ Rozwiązanie jest podzielone na niezależne moduły. Poniższy schemat przedstaw
 
 1. [Google finance](https://www.google.com/finance/?authuser=1) - notowania giełdowe
 2. [Bankier.pl](https://www.bankier.pl/gospodarka/wskazniki-makroekonomiczne/stopa-bezrobocia-pol#) - stopa bezrobocia
+3. [mBank](https://www.mbank.pl/pomoc/oprocentowanie/oferta-indywidualna/?fbclid=IwAR34oaMOMfsHjtS5bmbIm3-Z5gnfEZAJTR3yj3-JMKMzufcBdJMY9qNhZrE) - aktualne i historyczne oprocentowanie lokat
